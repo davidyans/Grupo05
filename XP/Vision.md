@@ -1,6 +1,6 @@
 # Visión
 
-El proyecto tiene como objetivo desarrollar un software innovador destinado a la resolución eficiente y elegante de diversos tipos de rompecabezas. Desde crucigramas y sudoku hasta rompecabezas lógicos y desafíos matemáticos, nuestro software aspira a ser la herramienta definitiva para entusiastas de los rompecabezas y solucionadores de problemas por igual.
+*El proyecto tiene como objetivo desarrollar un software innovador destinado a la resolución eficiente de rompecabezas, nuestro software aspira a ser la herramienta definitiva para entusiastas de los rompecabezas y solucionadores de problemas por igual.*
 
 ## Objetivos
 
