@@ -24,10 +24,10 @@
 
 - En esta imagen podemos visualizar una interfaz básica de nuestro puzzle con una calidad de imagen en blanco y negro, un poco difícil de distinguir los colores con sus tonalidades.
 
-![Prototipo Inicial](Grupo05\XP\2-Designing\images\prototipo-inicial.jpeg)
+![Prototipo Inicial](images/prototipo-inicial.jpeg)
 
 ## 3. Prototipo Iterativo
 
 - En esta imagen podemos visualizar una mejora notable en la interfaz, con una tonalidad y mezcla de colores vivos para un mejor entendimiento del funcionamiento del puzzle para el usuario.
 
-![Prototipo Iterativo](Grupo05\XP\2-Designing\images\prototipo-iterativo.jpeg)
+![Prototipo Iterativo](images/prototipo-iterativo.jpeg)
