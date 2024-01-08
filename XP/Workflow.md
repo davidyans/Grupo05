@@ -1,8 +1,14 @@
 # Workflow
-En la fase de planificación, el gerente de proyecto trabajará con el cliente para definir los requisitos del software. Estos requisitos se documentarán en las *historias de usuario*, junto al *release plan* que lista las versiones y *tarjetas de tareas* .
-
-En la fase de diseño se define la serie de estándares a cumplir por los desarrolladores, generando la documentación de *estándares* y *diagrama conceptual y UML*.
-
-En la fase de desarrollo, los desarrolladores utilizarán los diseños para implementar el software. El código cumplirá una serie de estándares. Se documenta la *configuración del sistema* y el *manual de usuario*
-
-En la fase de testing, el software cumplirá una serie de pruebas. Al cumplir las pruebas se realiza el lanzamiento en donde los usuarios finales recibirán capacitación sobre cómo utilizar el software.
+## Planning
+- Historias de Usuario: Documento que describe los requisitos de un sistema desde la perspectiva del usuario. Las historias de usuario se utilizan para definir las características y funcionalidades que debe tener el sistema.
+- Release Plan: Documento que describe los planes para el lanzamiento de un sistema. El release plan incluye información sobre el cronograma, los recursos necesarios y las actividades que deben realizarse para completar el lanzamiento.
+- Tarjetas de Tareas y Criterios de Aceptación: Documento que describe las tareas que deben realizarse para completar una historia de usuario. Los criterios de aceptación definen los requisitos que deben cumplirse para considerar que una historia de usuario está completa.
+## Designing
+- Diagrama Conceptual: Documento que representa la visión general de un sistema. El diagrama conceptual muestra los componentes principales del sistema y sus relaciones.
+- Diagrama UML: Documento que representa los componentes internos de un sistema. El diagrama UML se utiliza para modelar la estructura y el comportamiento de un sistema.
+- Estándares: Documento que establece las reglas y pautas que deben seguirse al desarrollar un sistema. Los estándares se utilizan para garantizar la calidad y la consistencia del sistema.
+## Coding
+- Configuración del Sistema: Documento que describe los requisitos técnicos necesarios para implementar un sistema. La configuración del sistema incluye información sobre el hardware, el software y las herramientas que se necesitan.
+- Manual de Usuario: Documento que proporciona instrucciones a los usuarios sobre cómo utilizar un sistema. El manual de usuario debe ser claro y conciso, y debe cubrir todos los aspectos del uso del sistema.
+## Testing
+- Test: Proceso de evaluación de un sistema para garantizar que cumple con sus requisitos. Los test se realizan para detectar errores y problemas en el sistema.

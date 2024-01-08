@@ -17,4 +17,6 @@ El Puzzle Solver es una aplicación que resuelve un rompecabezas de 8 piezas uti
 ### Características Clave
 **Interfaz de usuario amigable:** Una interfaz intuitiva que te permite visualizar el rompecabezas y ver los resultados de manera clara.
 
+**Resolución efectiva:** Los rompecabezas se resolverán correctamente mostrandote cada paso realizado.
+
 **Cómo Jugar:** Compila y ejecuta la clase principal para resolver tus rompecabezas!
