@@ -2,7 +2,7 @@
 ### METODOLOGÍAS ÁGILES
 ### EXÁMEN 1ER BIMESTRE
 
-## GRUPO 05
+### GRUPO 05
 ## INTREGRANTES
 - Suntasig Ariel
 - Terán José
@@ -12,3 +12,4 @@
 - Yánez David
 
 ## METÁFORA
+Navegador de Laberintos.
