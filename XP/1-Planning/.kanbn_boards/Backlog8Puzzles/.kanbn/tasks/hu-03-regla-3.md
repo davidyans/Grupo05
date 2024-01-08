@@ -1,11 +1,12 @@
 ---
 created: 2024-01-07T10:24:05.977Z
-updated: 2024-01-07T10:24:05.972Z
+updated: 2024-01-08T06:11:46.716Z
 assigned: 'David Yanez'
 progress: 0
 tags: []
 due: 2024-01-07T00:00:00.000Z
 started: 2024-01-07T00:00:00.000Z
+completed: 2024-01-08T06:11:46.716Z
 ---
 
 # HU-03: Regla 3
@@ -16,7 +17,7 @@ started: 2024-01-07T00:00:00.000Z
 
 ## Sub-tasks
 
-- [ ] 
+- [ ] [ ]
 
 ## Relations
 
