@@ -1,7 +1,7 @@
 ---
 created: 2024-01-07T10:24:05.977Z
 updated: 2024-01-07T10:24:05.972Z
-assigned: 'David Yanez, José Téran, Jeremy Torres'
+assigned: 'David Yanez'
 progress: 0
 tags: []
 due: 2024-01-07T00:00:00.000Z
