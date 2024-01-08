@@ -15,28 +15,39 @@
 
 # Estándares de codificación Puzzle
 
-**1. Identación:**
+**1. Convenciones de nomenclatura:**
 
-- Utilizar espacios, no tabulaciones.
-- Usar 4 espacios para la sangría en cada nivel.
+- Usar nombres descriptivos para variables y métodos.
+- Utilizar convenciones de nombres como snake_case para variables y lower_case para funciones/métodos en Python.
 
   Ejemplo:
 
   ```
-  class Puzzle:
-      def __init__(self, inicio, objetivo):
+  class PuzzleSolver:
+    def __init__(self, puzzle_instance):
+        self.puzzle_instance = puzzle_instance
+        self.drawer = Dibujante()
+    
+    def solve_puzzle(self):
+        states_queue = deque([self.puzzle_instance.start])
+        visited_states = set([self.puzzle_instance.start.tobytes()])
+        paths = {self.puzzle_instance.start.tobytes(): []}
   ```
 
 ---
-**2. Espacios en blanco:**
+**2. Espacios en blanco y formato:**
 
-- Agregar un espacio después de las comas en listas y tuplas
-- Agregar espacios alrededor de los operadores binarios.
+- Mantener una consistencia en el uso de espacios en blanco y formato en el código.
+- Evitar líneas largas y dividirlas para mejorar la legibilidad.
 
   Ejemplo:
 
   ```
-  self.direcciones = ['arriba', 'abajo', 'izquierda', 'derecha']
+  class Dibujante:
+    @staticmethod
+    def draw_state(state):
+        plt.imshow(state, cmap='Blues')
+        plt.title("Puzzle")
   ```
 
 ---
@@ -68,21 +79,32 @@
 ---
 **5. Organización del código**
 
-- Agrupar métodos relacionados y mantener una estructura lógica en la clase.
+- Dividir lógicamente el código en secciones y clases para una mejor organización.
+- Ordenar las importaciones y mantener una estructura jerárquica para facilitar la comprensión.
 
   Ejemplo
   ```
+  class Main:
+    def __init__(self):
+        # ...
+  
   class Puzzle:
-    def __init__(self, inicio, objetivo):
+    def __init__(self, start, goal):
         # ...
 
-    def mover(self, estado, direccion):
+    def move(self, state, direction):
+        # ...
+  
+  class Dibujante:
+    @staticmethod
+    def draw_state(state):
+        # ...
+  
+  class PuzzleSolver:
+    def __init__(self, puzzle_instance):
         # ...
 
-    def dibujar(self, estado):
-        # ...
-
-    def resolver(self):
+    def solve_puzzle(self):
         # ...
   ```
 
